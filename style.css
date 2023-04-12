@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: monospace;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.container .fix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .fix h3{
+    padding: 10px 5px;
+}
+.container .fix span{
+    font-weight: bold;
+    font-size:20px ;
+}
